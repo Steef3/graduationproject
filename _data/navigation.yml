@@ -4,8 +4,8 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Home"
     url: https://graduationproject.fun/
-  - title: "About"
-    url: https://graduationproject.fun/graduationproject/docs/_pages/404.md
+  # - title: "About"
+  #   url: 
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
