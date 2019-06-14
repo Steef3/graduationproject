@@ -15,7 +15,7 @@ $(document).ready(function() {
       modal: true
         }, 0);
      });
-  });
+  })(jQuery);
   
   $(function () {
         $(document).on('click', '.popup-modal-dismiss', function (e) {
