@@ -1,3 +1,14 @@
+
+# Welcome to my graduation project!
+This project was forked from the Minimal Mistakes Jekyll theme. Please see information below.
+
+Stuff that I added/will add:
+
+- Minimal changes to the layout (probably just colors or so)
+- A little content to the website
+- QR code to access the website
+- Google Analytics
+
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
