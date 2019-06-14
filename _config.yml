@@ -127,9 +127,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Steef3"
-    - label: "Instagram"
+    - label: "Cutest dog ever (maintained by the second-cutest guy ever: my brother)"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/yumi_elo/"
 
 # Site Footer
 footer:
@@ -149,9 +149,9 @@ footer:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
-    - label: "Instagram"
+    - label: "Cutest dog ever"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/yumi_elo/"
 
 
 # Reading Files
