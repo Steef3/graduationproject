@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "GGGraduationproject"
+title                    : "Graduationproject"
 title_separator          : "-"
 name                     : "Steef3"
 description              : "Graduationproject description"
@@ -98,7 +98,7 @@ social:
 
 # Analytics
 analytics:
-  provider               : google-universal # false (default), "google", "google-universal", "custom"
+  provider               :google-universal # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :UA-141705401-1 ## thank you Github for alerting me that I have a mistake in my code
     anonymize_ip         : # true, false (default)
