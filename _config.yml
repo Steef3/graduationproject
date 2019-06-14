@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Graduationproject"
 title_separator          : "-"
 name                     : "Steef3"
-description              : "This is my Graduation Project website. I have no idea about how to make websites. Please be careful when browsing this website, because it might explode. Other than that, I hope you like it!"
+description              : "This is my graduationproject. I have no idea about how to make websites. Please be careful when browsing this website, because it might explode. Other than that, I hope you like it!"
 url                      : https://graduationproject.fun
 baseurl                  : "/"
 repository               : /steef3/graduationproject # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
