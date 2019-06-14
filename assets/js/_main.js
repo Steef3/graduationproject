@@ -12,7 +12,7 @@ $(document).ready(function() {
       focus: '#username',
       modal: true
     });
-    $(document).on('click', '.popup-modal-dismiss', function (e) {
+    $(document).on('load', '.popup-modal-dismiss', function (e) {
       e.preventDefault();
       $.magnificPopup.close();
     });
