@@ -6,19 +6,13 @@ $(document).ready(function() {
   
   // Popup Steef3 Magnific Popup
   $(function () {
-    $(window).load(function () {
-    // retrieved this line of code from http://dimsemenov.com/plugins/magnific-popup/documentation.html#api
-    $('.popup-modal').magnificPopup.open({
+    $('.popup-modal').magnificPopup({
       type: 'inline',
       preloader: false,
       focus: '#username',
       modal: true
-        }, 0);
-     });
-  })(jQuery);
-  
-  $(function () {
-        $(document).on('click', '.popup-modal-dismiss', function (e) {
+    });
+    $(document).on('click', '.popup-modal-dismiss', function (e) {
       e.preventDefault();
       $.magnificPopup.close();
     });
