@@ -7,15 +7,35 @@ layout: archive
 <!--
 The below is a popup added by Steef3 using Magnific Popup
 -->
-<a class="popup-modal" href="#test-modal">Testing this stuff</a>
+  <div class="example gc3">
+    <h3>Modal popup</h3>
+    <p>A modal popup disables the usual ways to close popups.</p>
+    <div class="html-code">
+      <a class="popup-modal" href="#test-modal">Test modal</a>
 
-<div id="test-modal" class="mfp-hide white-popup-block">
-	<h1>Modal dialog</h1>
-	<p>You won't be able to dismiss this by usual means (escape or
-		click button), but you can close it programatically based on
-		user choices or actions.</p>
-	<p><a class="popup-modal-dismiss" href="#">Dismiss</a></p>
-</div>
+      <div id="test-modal" class="mfp-hide white-popup-block">
+        <h1>Modal dialog</h1>
+        <p>You won't be able to dismiss this by usual means (escape or
+          click button), but you can close it programatically based on
+          user choices or actions.</p>
+        <p><a class="popup-modal-dismiss" href="#">Dismiss</a></p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $(function () {
+        $('.popup-modal').magnificPopup({
+          type: 'inline',
+          preloader: false,
+          focus: '#username',
+          modal: true
+        });
+        $(document).on('click', '.popup-modal-dismiss', function (e) {
+          e.preventDefault();
+          $.magnificPopup.close();
+        });
+      });
+    </script>
+  </div>
 
 <!--
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
