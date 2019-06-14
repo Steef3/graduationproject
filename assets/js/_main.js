@@ -8,7 +8,7 @@ $(document).ready(function() {
   $(function () {
     $(window).load(function () {
     // retrieved this line of code from http://dimsemenov.com/plugins/magnific-popup/documentation.html#api
-    $.magnificPopup.open({
+    $('.popup-modal').magnificPopup.open({
       type: 'inline',
       preloader: false,
       focus: '#username',
