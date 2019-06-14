@@ -14,8 +14,7 @@ $(document).ready(function() {
       focus: '#username',
       modal: true
         }, 0);
-      });
-    });
+     });
     $(document).on('click', '.popup-modal-dismiss', function (e) {
       e.preventDefault();
       $.magnificPopup.close();
