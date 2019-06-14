@@ -98,7 +98,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :google-universal # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :UA-141705401-1 ## thank you Github for alerting me that I have a mistake in my code
     anonymize_ip         : # true, false (default)
