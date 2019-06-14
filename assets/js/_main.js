@@ -15,7 +15,10 @@ $(document).ready(function() {
       modal: true
         }, 0);
      });
-    $(document).on('click', '.popup-modal-dismiss', function (e) {
+  });
+  
+  $(function () {
+        $(document).on('click', '.popup-modal-dismiss', function (e) {
       e.preventDefault();
       $.magnificPopup.close();
     });
