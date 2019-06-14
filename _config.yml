@@ -109,7 +109,7 @@ author:
   name             : "Steef3"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "My name is Stefan. That's all the information I will put into this Bio for now."
-  location         : "Your friendly neighborhood-hacker's DMs"
+  location         : "All the DMs."
   email            :
   links:
     - label: "Email"
