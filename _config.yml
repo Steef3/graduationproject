@@ -112,9 +112,9 @@ author:
   location         : "All the DMs."
   email            :
   links:
-    - label: "Email"
+    - label: "Email me all your complaints"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: mailto:x.jack.x.napier.x@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -134,6 +134,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Email me all your complaints"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:x.jack.x.napier.x@gmail.com
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
