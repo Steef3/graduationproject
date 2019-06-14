@@ -13,7 +13,7 @@ $(document).ready(function() {
       preloader: false,
       focus: '#username',
       modal: true
-        }), 0);
+        }, 0);
       });
     });
     $(document).on('click', '.popup-modal-dismiss', function (e) {
