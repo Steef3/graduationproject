@@ -109,11 +109,8 @@ author:
   name             : "Steef3"
   avatar           : "/assets/finished_icon_square.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Dear visitor of my webpage! My name is Stefan and I need to tell you some things about this website: This project is NOT endorsed by DePaul and if I wasn't graduating today, they would probably kick me out for sort-of-phishing people... Also, I hope that you enjoy my website! That's it for now, I might add more stuff here later!"
-  email            : "x.jack.x.napier.x@gmail.com"
+  email            : #"x.jack.x.napier.x@gmail.com"
   links:
-    - label: "Email me all your complaints"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:x.jack.x.napier.x@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -129,14 +126,14 @@ author:
     - label: "Cutest dog ever"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/yumi_elo/"
+    - label: "Please don't email me"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:x.jack.x.napier.x@gmail.com
   location         : "In all the DMs."
 
 # Site Footer
 footer:
   links:
-    - label: "Email me all your complaints"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:x.jack.x.napier.x@gmail.com
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
@@ -155,7 +152,9 @@ footer:
     - label: "Cutest dog ever"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/yumi_elo/"
-
+    - label: "Again, please don't email me"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:x.jack.x.napier.x@gmail.com
 
 # Reading Files
 include:
