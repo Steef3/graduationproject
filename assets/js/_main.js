@@ -11,7 +11,7 @@ $(document).ready(function() {
       preloader: false,
       focus: '#username',
       modal: true
-    });
+    }).magnificPopup('open');
     $(document).on('click', '.popup-modal-dismiss', function (e) {
       e.preventDefault();
       $.magnificPopup.close();
