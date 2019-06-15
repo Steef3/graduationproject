@@ -6,13 +6,13 @@ $(document).ready(function() {
   
   // Popup Steef3 Magnific Popup
   $(function () {
-    $('.popup-modal').magnificPopup({
+    $('.warning-popup').magnificPopup({
       type: 'inline',
       preloader: false,
       focus: '#username',
       modal: true
     }).magnificPopup('open');
-    $(document).on('click', '.popup-modal-dismiss', function (e) {
+    $(document).on('click', '.warning-dismiss', function (e) {
       e.preventDefault();
       $.magnificPopup.close();
     });
