@@ -16,7 +16,7 @@ $(document).ready(function() {
       e.preventDefault();
       $.magnificPopup.close();
     });
-  }), 10000;
+  }), 100000;
   
   // Sticky footer
   var bumpIt = function() {
